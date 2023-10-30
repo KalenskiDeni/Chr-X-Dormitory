@@ -6,18 +6,182 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="bookroom.css" />
     <script src="bookroom.js"></script>
+    <style>
+      table {
+          border-collapse: collapse;
+          width: 300px;
+      }
+
+      th, td {
+          border: 1px solid #ccc;
+          text-align: center;
+      }
+
+      th {
+          background-color: #10205c;
+          color: white;
+      }
+
+      td {
+          cursor: pointer;
+      }
+
+      td:hover {
+          background-color: #eee;
+      }
+
+      .calendar1 {
+        position: absolute;
+        display: absolute;
+        width: 360px;
+        height: 280px;  
+        top: 50%;
+        left: 4%;
+        background-color: #ffffff;
+        border-radius: 27px;
+        padding-top: 5%;
+        padding-left: 5%;
+        font-size: 24.5px;
+        font-family: "Arial-Bold", Helvetica;
+        font-weight: 700;
+
+      }
+
+      .selected-date {
+        font-family: "Arial-Bold", Helvetica;
+        font-weight: 700;
+        color: #10205c;
+        font-size: 26px;
+      }
+      
+      .selected-time {
+        color: #10205c;
+        font-size: 26px;
+        z-index: 2;
+        position: inherit;
+        top: 48%;
+        left: 60%;
+        width: 230px;
+        border-radius: 27px;
+        padding-left: 3%;
+        padding-bottom: 3%;
+      }
+
+      #select-text {
+        font-size: 40px;
+        background-color: #ffffff;
+        border-radius: 27px;
+        padding-left: 4%;
+        padding-right: 3%;
+      }
     
-    
+      
+  </style>
   </head>
   <body>
     <button onclick="myFunction()" data-modal-target="#modal" class="button-book">Book here</button>
     <div id="overlay"></div>
     <div class="modal" id="modal">
-     <button data-close-button class="close-button">&times;</button>
-     <div class="pop-movie"> <img class="pop-movie" src="Images/image 2.png"></div>
+    <div class="selected-time">
+      <h1 id="select-text">Select Time</h1>
+     <form>
+        <label class="select-time" for="start-time">Start Time:</label>
+        <select id="start-time" name="start-time">
+            <option value="08:00 AM">08:00 AM</option>
+            <option value="09:00 AM">09:00 AM</option>
+            <option value="10:00 AM">10:00 AM</option>
+            <option value="11:00 AM">11:00 AM</option>
+            <option value="12:00 PM">12:00 PM</option>
+            <option value="01:00 PM">01:00 PM</option>
+            <option value="02:00 PM">02:00 PM</option>
+            <option value="03:00 PM">03:00 PM</option>
+            <option value="04:00 PM">04:00 PM</option>
+            <option value="05:00 PM">05:00 PM</option>
+            <option value="06:00 PM">06:00 PM</option>
+        </select>
+
+        <label for="end-time">End Time:</label>
+        <select id="end-time" name="end-time">
+            <option value="09:00 AM">09:00 AM</option>
+            <option value="10:00 AM">10:00 AM</option>
+            <option value="11:00 AM">11:00 AM</option>
+            <option value="12:00 PM">12:00 PM</option>
+            <option value="01:00 PM">01:00 PM</option>
+            <option value="02:00 PM">02:00 PM</option>
+            <option value="03:00 PM">03:00 PM</option>
+            <option value="04:00 PM">04:00 PM</option>
+            <option value="05:00 PM">05:00 PM</option>
+            <option value="06:00 PM">06:00 PM</option>
+            <option value="07:00 PM">07:00 PM</option>
+        </select>
+        
+      
+     </form>
+    </div>
+      <div class="calendar1" id="calendar1">
+        <table id="calendar">
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <p class="selected-date" id="selected-date">Selected Date: None</p>
+      </div>
+      <script>
+        function createCalendar(year, month) {
+            const calendar = document.getElementById("calendar");
+            const tbody = calendar.querySelector("tbody");
+            tbody.innerHTML = "";
+
+            const date = new Date(year, month, 1);
+            const lastDay = new Date(year, month + 1, 0).getDate();
+            const day = date.getDay();
+
+            let row = document.createElement("tr");
+
+            for (let i = 0; i < day; i++) {
+                let cell = document.createElement("td");
+                row.appendChild(cell);
+            }
+
+            for (let i = 1; i <= lastDay; i++) {
+                let cell = document.createElement("td");
+                cell.textContent = i;
+                cell.addEventListener("click", function () {
+                    const selectedDate = new Date(year, month, i);
+                    document.getElementById("selected-date").textContent = "Selected Date: " + selectedDate.toDateString();
+                });
+                row.appendChild(cell);
+
+                if (date.getDay() === 6) {
+                    tbody.appendChild(row);
+                    row = document.createElement("tr");
+                }
+                date.setDate(date.getDate() + 1);
+            }
+
+            tbody.appendChild(row);
+        }
+
+        const today = new Date();
+        createCalendar(today.getFullYear(), today.getMonth());
+    </script>
+     <button  data-close-button class="button-submit">Submit</button>
+     <button data-close-button class="close-button">&times</button>
+     <div class="pop-movie"> <img class="pop-movie" src="Images/image 6.png"></div>
      <div class="pop-label"><div class="pop-wrapper">Movie room</div></div>
-     <div class="pop-main"><p class="main-pop">We have a wide selection of CDs and even a PlayStation!</p></div>
+     <div class="pop-main"><div class="main-pop">We have a wide selection of CDs and even a PlayStation!</div></div>
      <div class="pop-mainbold"><p class="main-popbold">Respect your dorm mates and keep the volume low after 22:00 o'clock.</p></div>
+    
     </div>
     <button class="button-book1">Book here</button>
     <button class="button-book2">Book here</button>
@@ -61,8 +225,7 @@
       
         <img src="Images/logo.png" alt="logo" class="img">
 
-        
-        
+       
   </body>
   </html>
 
