@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        td {
+            cursor: pointer;
+        }
+
+        td:hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calendar</h1>
+    <table id="calendar">
+        <thead>
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <p id="selected-date">Selected Date: None</p>
+
+    <script>
+        function createCalendar(year, month) {
+            const calendar = document.getElementById("calendar");
+            const tbody = calendar.querySelector("tbody");
+            tbody.innerHTML = "";
+
+            const date = new Date(year, month, 1);
+            const lastDay = new Date(year, month + 1, 0).getDate();
+            const day = date.getDay();
+
+            let row = document.createElement("tr");
+
+            for (let i = 0; i < day; i++) {
+                let cell = document.createElement("td");
+                row.appendChild(cell);
+            }
+
+            for (let i = 1; i <= lastDay; i++) {
+                let cell = document.createElement("td");
+                cell.textContent = i;
+                cell.addEventListener("click", function () {
+                    const selectedDate = new Date(year, month, i);
+                    document.getElementById("selected-date").textContent = "Selected Date: " + selectedDate.toDateString();
+                });
+                row.appendChild(cell);
+
+                if (date.getDay() === 6) {
+                    tbody.appendChild(row);
+                    row = document.createElement("tr");
+                }
+                date.setDate(date.getDate() + 1);
+            }
+
+            tbody.appendChild(row);
+        }
+
+        const today = new Date();
+        createCalendar(today.getFullYear(), today.getMonth());
+    </script>
+</body>
+</html>
