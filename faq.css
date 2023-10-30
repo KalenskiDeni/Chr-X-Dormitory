@@ -162,10 +162,10 @@
 }
 
 .menu p{
-    font-size: 34px;
+    font-size: 28px;
     font-family: Arial;
     padding-left: 40px;
-    line-height: 50%;
+    line-height: 150%;
     color: #001151;
 }
 
@@ -192,3 +192,14 @@ h2{
   font-family: Arial;
   text-align: center;
 }
+
+.down {
+  font-size: 2rem;
+  background: #B8C1DC;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 34px;
+}
+
