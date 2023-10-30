@@ -1,0 +1,245 @@
+.logo{
+    width: 138px;
+    height: 118.4px;
+    padding-top: 49px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Back arrow */
+
+.backarrow{
+  position: absolute;
+  margin-right: 620px;
+  margin-left: 60px;
+  margin-top: 40px;
+  width: 50px;
+  height: 50px;
+  
+}
+
+.fa-solid {
+ font-size: 2rem;
+ background: #BFC7DF;
+ padding-left: 1.5rem;
+ padding-right: 1.5rem;
+ padding-top: 0.5rem;
+ padding-bottom: 0.5rem;
+ border-radius: 34px;
+}
+
+/* Language Button */
+
+.switch {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 40px;
+  }
+  
+  .switch > span {
+    position: absolute;
+    top: 15px;
+    pointer-events: none;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+    width: 50%;
+    text-align: center;
+  }
+  
+  input.check-toggle-round-flat:checked ~ .off {
+    color: #fff;
+  }
+  
+  input.check-toggle-round-flat:checked ~ .on {
+    color: #132B82;
+  }
+  
+  .switch > span.on {
+    padding-left: 2px;
+    color: #fff;
+  }
+  
+  .switch > span.off {
+    right: 0;
+    padding-right: 4px;
+    color: #132B82;
+  }
+  
+  .check-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+  }
+  .check-toggle + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    
+  }
+  
+  input.check-toggle-round-flat + label {
+    padding: 2px;
+    width: 147px;
+    height: 52px;
+    background-color: #A1ACD0;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+  }
+  input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
+    display: block;
+    position: absolute;
+    content: "";
+  }
+  
+  input.check-toggle-round-flat + label:before {
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    background-color: #A1ACD0;
+    
+    -moz-border-radius: 60px;
+    -ms-border-radius:60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+  }
+  input.check-toggle-round-flat + label:after {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    width: 73px;
+    background-color: #132B82;
+    -webkit-border-radius: 52px;
+    -moz-border-radius: 52px;
+    -ms-border-radius: 52px;
+    -o-border-radius: 52px;
+    border-radius: 52px;
+    -webkit-transition: margin 0.4s;
+    -moz-transition: margin 0.4s;
+    -o-transition: margin 0.4s;
+    transition: margin 0.4s;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  input.check-toggle-round-flat:checked + label:after {
+    margin-left: 70px;
+  }
+
+
+
+  h1 {
+    color: #132B82;
+    font-family: Calibri;
+    font-size: 64px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+
+  h2 {
+    color: rgba(0, 0, 0, 0.48);
+    font-family: Calibri;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 670px;
+    margin-top: -100px;
+  }
+  
+  .calendar{
+    width: 730px;
+    height: 530px;
+    margin-left: 35px;
+  }
+
+  .duty{
+    margin-left: 10px;
+  }
+
+  h3 {
+    color: #000;
+    font-family: Arial;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 45px;
+    margin-top: 42px;
+  }
+
+   .checkbox-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 29px;
+    line-height: 0.7;
+    margin-left: 60px;
+}
+
+label {
+    display: flex;
+}
+
+input[type="checkbox"] {
+    margin-right: 35px;
+    transform: scale(2.5);
+    border: 2px solid #000;
+    
+}
+
+
+
+  p {
+    margin-left: 110px;
+    margin-top: 30px;
+    line-height: 130%;
+    font-size: 26px;
+    width: 300px;
+  }
+
+
+  .rectangle {
+    width: 350px;
+    height: 220px;
+    padding: 10px 20px;
+    border-radius: 27px;
+    background: #B8C1DC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 370px;
+    margin-top: -220px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 0.001;
+
+  }
+
+  button{
+    display: flex;
+    width: 340px;
+    font-size: 22px;
+    height:50px;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 24px;
+    background: #132B82;
+    color: #fff;
+    margin-top: -7px;
+    margin-left: 395px;
+  }
+
+
+  .skip-duty{
+    margin-left: 360px;
+    margin-top: -267px;
+    font-size: 24px;
+}
+
+.skip-info{
+  margin-left: 293px;
+  margin-top: -20px;
+}

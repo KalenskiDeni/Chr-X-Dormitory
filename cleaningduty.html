@@ -3,10 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Miki! Here you can write your HTML code.</title>
+    <title>Christian X Dormitory</title>
     <link rel="stylesheet" href="cleaningduty.css">
+    <script src="cleaningDuty.js"></script>
 </head>
 <body>
+
+    <!-- Back arrow -->
+    <div class="backarrow">
+        <a href="mainpage.html"><i class="fa-solid fa-arrow-left"></i></a>
+        </div>
     
+      <!-- Language Button -->
+      <div class="switch">
+        <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
+        <label for="language-toggle"></label>
+        <span class="on">EN</span>
+        <span class="off">DK</span>
+      </div>
+    
+      <!-- Logo -->
+        <a href="mainpage.html"><img src="Images/logo.png" alt="Dorm Logo" class="logo"></a>
+
+        
+        <h1>November ></h1>
+        <h2>2023</h2>
+        <img src="Images/calendar.png" alt="Calendar" class="calendar">
+
+        <div class="duty">
+        <h3>Cleaning duty tasks:</h3>
+        </div>
+
+        
+         <div class="checkbox-list">
+          <label>
+              <input type="checkbox" id="kitchenCheckbox">
+              Kitchen
+          </label>
+          <br>
+          <label>
+              <input type="checkbox" id="hallwayCheckbox">
+              Hallway
+          </label>
+          <br>
+          <label>
+              <input type="checkbox" id="commonRoomsCheckbox">
+              Common rooms
+          </label>
+          <br>
+          <label>
+              <input type="checkbox" id="mainAreaCheckbox">
+              Main area
+          </label>
+      </div>
+
+      
+        <div class="rectangle"></div>
+        <div class="skip-duty">
+             <h3>Skip duty?</h3>
+        </div>
+
+        <div class="skip-info">
+              <p>You can skip your duty if you want.You must pay <strong>200 DKK</strong> to skip your duty.</p>
+            </div>
+            
+            <a href="ausCleaningDuty.html"><button>Skip your duty for 12-19 Nov ></button></a>
+
+
+       
 </body>
 </html>
