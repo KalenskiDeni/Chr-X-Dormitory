@@ -42,7 +42,7 @@
     position: absolute;
     top: 0;
     left: 324px;
-    background-color: #9da7cb;
+    background-color: #E8EBF3;
     border-radius: 0px 32px 32px 0px;
   }
   
@@ -50,37 +50,10 @@
     position: absolute;
     width: 324px;
     height: 262px;
-    object-fit: cover;
+    
   }
   
-
-
-
-
-
-  .events .createbox {
-    top: 1066px;
-    left: 0px;
-    position: relative;
-    width: 250px;
-    height: 73px;
-    background-color: #132b82;
-    border-radius: 50px;
-  }
   
-  .events .create {
-    position: absolute;
-    width: 187px;
-    top: 22px;
-    left: 34px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 24px;
-  }
-
-  
-
 
   .events .logo {
     display: block;
@@ -100,22 +73,28 @@
     left: 82PX;
   }
 
-
-
+  .events .keyboard
+  {
+    position: absolute;
+    width: 820px;
+    height: 320px;
+    top: 860px;
+    left: 0;
+  }
 
 
 
   .events .headline {
     font-family: "Arial-Bold", Helvetica;
     font-weight: 700;
-    color: #000000;
+    color: #A0A2A8;
     font-size: 32px;
   }
 
   .events .text1 {
     font-family: "Arial-Bold", Helvetica;
     font-weight: 400;
-    color: #000000;
+    color: #A0A2A8;
     font-size: 17px;
     line-height: 26px;
 
@@ -124,7 +103,7 @@
   .events .text2 {
     font-family: "Arial-Bold", Helvetica;
     font-weight: 400;
-    color: #000000;
+    color: #A0A2A8;
     font-size: 16px;
     line-height: 26px;
 
@@ -133,11 +112,96 @@
   .events .text3 {
     font-family: "Arial-Bold", Helvetica;
     font-weight: 400;
-    color: #000000;
+    color: #A0A2A8;
     font-size: 16px;
   }
 
-    
+
+
+
+  
+  .events .box {
+    position: relative;
+    width: 692px;
+    height: 384px;
+    top: 398px;
+    background-color: #b8c1dc;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px #b8c1dc;
+  }
+  
+  .events .boxtext1 {
+    position: absolute;
+    width: 525px;
+    top: 20px;
+    left: 45px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #001150;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .events .closebutton {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 20px;
+    left: 607px;
+    object-fit: cover;
+  }
+  
+  .events .whitebox {
+    position: absolute;
+    width: 601px;
+    height: 271px;
+    top: 76px;
+    left: 45px;
+    background-color: #f6f6f6;
+    border-radius: 40px;
+  }
+  
+  .events .boxtext2 {
+    position: absolute;
+    top: 16px;
+    left: 42px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #888888;
+    font-size: 22px;
+  }
+  
+  .events .button {
+    position: absolute;
+    width: 180px;
+    height: 65px;
+    top: 194px;
+    left: 405px;
+    background-color: #132a7f;
+    border-radius: 52px;
+  }
+  
+  .events .boxtext3 {
+    position: absolute;
+    width: 106px;
+    top: 8px;
+    left: 37px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 31px;
+    line-height: 44px;
+  }
+
+
+
+
+
+
+
+
+  
   .switch {
     position: absolute;
     margin-left: 620px;
