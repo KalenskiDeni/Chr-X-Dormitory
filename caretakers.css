@@ -1,0 +1,554 @@
+.care {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .care .caretakers {
+    position: absolute;
+    width: 657px;
+    height: 886px;
+    top: 156px;
+    left: 81px;
+  }
+  
+  .care .caretakers-group {
+    position: absolute;
+    width: 657px;
+    height: 886px;
+    top: 0;
+    left: 0;
+  }
+
+  .care .all {
+    background-color: #ffffff;
+    width: 820px;
+    height: 1180px;
+    position: relative;
+  }
+  
+
+
+
+
+
+  .care .box1 {
+    top: 284px;
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    left: 0;
+    background-color: #b8c1dc;
+    border-radius: 0px 0px 32px 32px;
+  }
+  
+  .care .ell1 {
+    top: 134px;
+    position: absolute;
+    width: 300px;
+    height: 154px;
+    left: 0;
+  }
+  
+  .care .car1 {
+    top: 41px;
+    position: absolute;
+    width: 214px;
+    height: 246px;
+    left: 43px;
+    object-fit: cover;
+  }
+  
+  .care .button1 {
+    top: 414px;
+    position: absolute;
+    width: 140px;
+    height: 42px;
+    left: 140px;
+    background-color: #132b82;
+    border-radius: 32px;
+  }
+  
+  .care .header1 {
+    top: 292px;
+    left: 26px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 39.8px;
+    white-space: nowrap;
+  }
+  
+  .care .info1 {
+    top: 320px;
+    position: absolute;
+    width: 235px;
+    left: 26px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+  }
+  
+  .care .contactme1 {
+    top: 422px;
+    position: absolute;
+    left: 156px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+
+
+
+
+
+  .care .box2 {
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    top: 283px;
+    left: 357px;
+    background-color: #b8c1dc;
+    border-radius: 0px 0px 32px 32px;
+  }
+  
+  .care .ell2 {
+    position: absolute;
+    width: 300px;
+    height: 154px;
+    top: 133px;
+    left: 357px;
+  }
+  
+  .care .car2 {
+    position: absolute;
+    width: 214px;
+    height: 246px;
+    top: 40px;
+    left: 400px;
+    object-fit: cover;
+  }
+  
+  .care .button2 {
+    position: absolute;
+    width: 140px;
+    height: 42px;
+    top: 413px;
+    left: 497px;
+    background-color: #132b82;
+    border-radius: 32px;
+  }
+  
+  .care .header2 {
+    top: 291px;
+    left: 382px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 39.8px;
+    white-space: nowrap;
+  }
+  
+  .care .info2 {
+    position: absolute;
+    width: 235px;
+    top: 320px;
+    left: 382px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+  }
+  
+  
+  .care .contactme2 {
+    position: absolute;
+    top: 422px;
+    left: 513px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+
+
+
+
+
+ 
+  .care .box3 {
+    top: 706px;
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    left: 0;
+    background-color: #b8c1dc;
+    border-radius: 0px 0px 32px 32px;
+  }
+  
+  .care .ell3 {
+    top: 556px;
+    position: absolute;
+    width: 300px;
+    height: 154px;
+    left: 0;
+  }
+  
+  .care .car3 {
+    top: 464px;
+    position: absolute;
+    width: 214px;
+    height: 246px;
+    left: 43px;
+    object-fit: cover;
+  }
+  
+  .care .button3 {
+    top: 836px;
+    position: absolute;
+    width: 140px;
+    height: 42px;
+    left: 140px;
+    background-color: #132b82;
+    border-radius: 32px;
+  }
+  
+  .care .header3 {
+    top: 714px;
+    left: 26px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 39.8px;
+    white-space: nowrap;
+  }
+  
+  .care .info3 {
+    top: 742px;
+    position: absolute;
+    width: 235px;
+    left: 26px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+  }
+  
+  .care .contactme3 {
+    top: 844px;
+    position: absolute;
+    left: 156px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+
+  
+
+
+
+  .care .box4 {
+    top: 706px;
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    left: 357px;
+    background-color: #b8c1dc;
+    border-radius: 0px 0px 32px 32px;
+  }
+  
+  .care .ell4 {
+    top: 556px;
+    position: absolute;
+    width: 300px;
+    height: 154px;
+    left: 357px;
+  }
+  
+  .care .car4 {
+    top: 464px;  /* 463 */
+    position: absolute;
+    width: 214px;
+    height: 246px;
+    left: 400px;
+    object-fit: cover;
+  }
+  
+  .care .button4 {
+    top: 836px;
+    position: absolute;
+    width: 140px;
+    height: 42px;
+    left: 497px;
+    background-color: #132b82;
+    border-radius: 32px;
+  }
+  
+  .care .header4 {
+    top: 714px;
+    left: 382px;
+    position: absolute;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 39.8px;
+    white-space: nowrap;
+  }
+  
+  .care .info4 {
+    top: 742px;
+    position: absolute;
+    width: 235px;
+    left: 382px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+  }
+  
+  .care .contactme4 {
+    top: 844px;
+    position: absolute;
+    left: 513px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+
+  
+
+
+  .care .ebutton {
+    position: absolute;
+    width: 273px;
+    height: 65px;
+    top: 1068px;
+    left: 274px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 4px solid;
+    border-color: #c60000;
+  }
+  
+  .care .etext {
+    position: absolute;
+    width: 231px;
+    top: 13px;
+    left: 21px;
+    font-family: "Calibri-Bold", Helvetica;
+    font-weight: 700;
+    color: #c60000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .care .ediscription {
+    position: absolute;
+    top: 1136px;
+    left: 264px;
+    font-family: "Arial-Regular", Helvetica;
+    font-weight: 400;
+    color: #e38080;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+
+
+
+
+
+  .care .t1 {
+    font-weight: 700;
+  }
+  
+  .care .t2 {
+    font-family: "Arial-Regular", Helvetica;
+  }
+
+  .care .title {
+    position: absolute;
+    top: 0;
+    left: 205px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #001150;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+
+
+
+
+
+  .care .logo {
+    display: block;
+    position: absolute;
+    width: 124px;
+    height: 102px;
+    object-fit: cover;
+    top: 40px;
+    left: 348px;
+  }
+  
+  .care .back-button {
+    position: absolute;
+    width: 53px;
+    height: 52px;
+    top: 59px;
+    left: 82PX;
+  }
+
+      
+  .switch {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 40px;
+  }
+  
+  .switch > span {
+    position: absolute;
+    top: 15px;
+    pointer-events: none;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+    width: 50%;
+    text-align: center;
+  }
+  
+  input.check-toggle-round-flat:checked ~ .off {
+    color: #fff;
+  }
+  
+  input.check-toggle-round-flat:checked ~ .on {
+    color: #132B82;
+  }
+  
+  .switch > span.on {
+    padding-left: 2px;
+    color: #fff;
+  }
+  
+  .switch > span.off {
+    right: 0;
+    padding-right: 4px;
+    color: #132B82;
+  }
+  
+  .check-toggle {
+    position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+  }
+  .check-toggle + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    
+  }
+  
+  input.check-toggle-round-flat + label {
+    padding: 2px;
+    width: 147px;
+    height: 52px;
+    background-color: #A1ACD0;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+    /* box-shadow: inset 0 0 3px rgba(0, 0, 0, 4); */
+  }
+  input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
+    display: block;
+    position: absolute;
+    content: "";
+  }
+  
+  input.check-toggle-round-flat + label:before {
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    right: 2px;
+    background-color: #A1ACD0;
+    
+    -moz-border-radius: 60px;
+    -ms-border-radius:60px;
+    -o-border-radius: 60px;
+    border-radius: 60px;
+  }
+  input.check-toggle-round-flat + label:after {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    width: 73px;
+    background-color: #132B82;
+    -webkit-border-radius: 52px;
+    -moz-border-radius: 52px;
+    -ms-border-radius: 52px;
+    -o-border-radius: 52px;
+    border-radius: 52px;
+    -webkit-transition: margin 0.4s;
+    -moz-transition: margin 0.4s;
+    -o-transition: margin 0.4s;
+    transition: margin 0.4s;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  input.check-toggle-round-flat:checked + label:after {
+    margin-left: 70px;
+  }
