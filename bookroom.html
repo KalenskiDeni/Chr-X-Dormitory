@@ -75,8 +75,14 @@
         padding-left: 4%;
         padding-right: 3%;
       }
-    
-      
+    .blur{
+      position: absolute;
+      top:0;left:0;right:0;bottom:0;
+      background: rgba(0,0,0,0.5);
+      display: none;
+    }
+
+
   </style>
   </head>
   <body>
@@ -88,6 +94,16 @@
     <button onclick="myFunction()" data-modal-target="#modal" class="button-book">Book here</button>
     <div id="overlay"></div>
     <div class="modal" id="modal">
+      <div class="blur"> </div>
+      <script>
+        popupLink.addModalListener("click", function(modal){
+          modal.preventDefault();
+          popupChip.style.display = "block";
+          document.getElementsByClassName('blur')[0].style.display="block";
+        });
+
+      </script>
+     
     <div class="selected-time">
       <h1 id="select-text">Select Time</h1>
      <form>
@@ -181,7 +197,7 @@
         const today = new Date();
         createCalendar(today.getFullYear(), today.getMonth());
     </script>
-     <button  data-close-button class="button-submit">Submit</button>
+   <a href="bookedroom.html"><button onclick="myFunction" class="button-submit">Submit</button></a>
      <button data-close-button class="close-button">&times</button>
      <div class="pop-movie"> <img class="pop-movie" src="Images/image 6.png"></div>
      <div class="pop-label"><div class="pop-wrapper">Movie room</div></div>
@@ -236,8 +252,12 @@
 
         <img src="Images/logo.png" alt="logo" class="img">
 
+<<<<<<< HEAD
+        
+=======
       
 
+>>>>>>> de20a4d514c12145538f03909936616ad86c6529
   </body>
   </html>
 
