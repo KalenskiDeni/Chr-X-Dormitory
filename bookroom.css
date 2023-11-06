@@ -667,19 +667,16 @@
     
   }
 
-<<<<<<< HEAD
+  .fa-solid {
+    font-size: 2rem;
+    background: #BFC7DF;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 34px;
+   }
   
 
-=======
-
   
-.fa-solid {
-  font-size: 2rem;
-  background: #BFC7DF;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  border-radius: 34px;
- }
->>>>>>> de20a4d514c12145538f03909936616ad86c6529
+
