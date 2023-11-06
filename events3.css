@@ -53,3 +53,7 @@ h2 {
     line-height: 162%;
     letter-spacing: -1.02px;
 }
+
+a{
+    text-decoration: none;
+}
