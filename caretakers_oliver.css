@@ -1,0 +1,193 @@
+.caretakers {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .caretakers .all {
+    background-color: #ffffff;
+    width: 820px;
+    height: 1180px;
+    position: relative;
+  }
+  
+  
+  .caretakers .keyboard
+  {
+    position: absolute;
+    width: 820px;
+    height: 320px;
+    top: 860px;
+    left: 0;
+  }
+
+
+
+  
+  .caretakers .box {
+    position: relative;
+    width: 692px;
+    height: 384px;
+    top: 228px;
+    left: 64px;
+    background-color: #B8C1DC;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px #B8C1DC;
+  }
+  
+  .caretakers .boxtext1 {
+    position: absolute;
+    width: 525px;
+    top: 20px;
+    left: 45px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #001151;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .caretakers .closebutton {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 20px;
+    left: 607px;
+    object-fit: cover;
+  }
+  
+  .caretakers .whitebox {
+    position: absolute;
+    width: 601px;
+    height: 271px;
+    top: 76px;
+    left: 45px;
+    background-color: #f6f6f6;
+    border-radius: 40px;
+  }
+  
+  .caretakers .boxtext2 {
+    position: absolute;
+    top: 16px;
+    left: 42px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #888888;
+    font-size: 22px;
+  }
+  
+  .caretakers .button {
+    position: absolute;
+    width: 180px;
+    height: 65px;
+    top: 194px;
+    left: 405px;
+    background-color: #132B82;
+    border-radius: 52px;
+  }
+  
+  .caretakers .boxtext3 {
+    position: absolute;
+    width: 106px;
+    top: 8px;
+    left: 37px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 31px;
+    line-height: 44px;
+  }
+
+.caretakers .shadow {
+    position: fixed;
+    width: 820px;
+    height: 390px;
+    top: 790px;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(33.52, 33.52, 33.52, 0.3) 44.79%,
+    rgba(19, 43, 130, 0.47) 100%
+    );
+  }
+
+  
+  .caretakers .ebutton {
+    position: absolute;
+    width: 273px;
+    height: 65px;
+    top: 60px;
+    left: 274px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 4px solid;
+    border-color: #c60000;
+  }
+  
+  .caretakers .etext {
+    position: absolute;
+    width: 231px;
+    top: 17px;
+    left: 21px;
+    font-family: "Calibri-Bold", Helvetica;
+    font-weight: 700;
+    color: #c60000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+
+
+
+
+
+  .caretakers .care_name {
+    position: relative;
+    width: 406px;
+    height: 102px;
+    top: 228px;
+    left: 64px;
+  }
+
+  .caretakers .you-are-writing-to {
+    position: relative;
+    width: 692px;
+    height: 102px;
+    top: 0px;
+  }
+  
+  .caretakers  .text{
+    position: absolute;
+    top: 35px;
+    left: 0;
+    font-family: "Calibri-Regular", Helvetica;
+    font-weight: 400;
+    color: #001150;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .caretakers  .text2{
+    font-family: "Calibri-Regular", Helvetica;
+    font-weight: 700;
+    color: #001150;
+    font-size: 28px;
+    letter-spacing: 0;
+  }
+
+  .caretakers .image{
+        position: absolute;
+        width: 84px;
+        height: 89px;
+        top: 0;
+        left: 440px;
+        object-fit: cover;
+  }
+
