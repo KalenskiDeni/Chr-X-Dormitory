@@ -268,3 +268,7 @@
   input.check-toggle-round-flat:checked + label:after {
     margin-left: 70px;
   }
+
+a{
+    text-decoration: none;
+  }
