@@ -412,42 +412,53 @@
     font-family: "Arial-Regular", Helvetica;
   }
 
-  .care .title {
-    position: absolute;
-    top: 0;
-    left: 205px;
-    font-family: "Arial-Bold", Helvetica;
-    font-weight: 700;
-    color: #001150;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-
-
-
-
-
-
-  .care .logo {
-    display: block;
-    position: absolute;
-    width: 124px;
-    height: 102px;
-    object-fit: cover;
-    top: 40px;
-    left: 348px;
-  }
   
-  .care .back-button {
-    position: absolute;
-    width: 53px;
-    height: 52px;
-    top: 59px;
-    left: 82PX;
-  }
+
+
+
+
+
+
+  /* Logo */
+
+.logo{
+  width: 138px;
+  height: 118.4px;
+  padding-top: 49px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Back arrow */
+
+.backarrow{
+  position: absolute;
+  margin-right: 620px;
+  margin-left: 60px;
+  margin-top: 40px;
+  width: 76px;
+  height: 48px;
+  /* background-color: pink;
+  width: 50px;
+  height: 50px; */
+  
+}
+
+.immage{
+  width: 76px;
+  height: 48px;
+}
+
+.fa-solid {
+ font-size: 2rem;
+ background: #BFC7DF;
+ padding-left: 1.5rem;
+ padding-right: 1.5rem;
+ padding-top: 0.5rem;
+ padding-bottom: 0.5rem;
+ border-radius: 34px;
+}
 
       
   .switch {
